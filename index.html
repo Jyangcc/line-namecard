@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>楊鍾鼎 數位名片</title>
+<script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+<style>
+  body{font-family:system-ui,sans-serif;background:#faf7f5;color:#1f2937;margin:0;padding:32px 16px;text-align:center}
+  h1{font-size:20px;color:#8B1E2B}
+  button{background:#8B1E2B;color:#fff;border:0;border-radius:10px;font-size:18px;padding:14px 28px;margin-top:16px;width:100%;max-width:320px}
+  #msg{margin-top:16px;color:#6b7280;font-size:14px}
+</style>
+</head>
+<body>
+  <h1>楊鍾鼎 Frank｜數位名片</h1>
+  <p>按下按鈕，選擇要傳送的群組或好友。</p>
+  <button id="share" disabled>分享名片</button>
+  <div id="msg">載入中…</div>
+<script>
+const LIFF_ID = "2012227036-21M8ZcHA";   // ← 在 LINE Developers 建立 LIFF 後填這裡
+const msg = document.getElementById("msg");
+const btn = document.getElementById("share");
+const base = location.href.replace(/[^/]*([?#].*)?$/, "").replace(/\/$/, "");
+
+async function loadFlex() {
+  const raw = await (await fetch("flex.json?v=" + Date.now())).text();
+  return JSON.parse(raw.replaceAll("{{BASE}}", base));
+}
+
+async function share() {
+  try {
+    const flex = await loadFlex();
+    const res = await liff.shareTargetPicker([
+      { type: "flex", altText: "楊鍾鼎 Frank｜富特茂 核醫放射部 數位名片", contents: flex }
+    ]);
+    msg.textContent = res ? "已送出 ✅" : "已取消";
+  } catch (e) { msg.textContent = "失敗：" + e.message; }
+}
+
+liff.init({ liffId: LIFF_ID }).then(() => {
+  if (!liff.isLoggedIn()) { liff.login(); return; }
+  if (!liff.isApiAvailable("shareTargetPicker")) {
+    msg.textContent = "請在 LINE App 內開啟此連結"; return;
+  }
+  btn.disabled = false; msg.textContent = "";
+  btn.onclick = share;
+}).catch(e => { msg.textContent = "初始化失敗：" + e.message; });
+</script>
+</body>
+</html>

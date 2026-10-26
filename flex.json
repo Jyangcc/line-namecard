@@ -1,0 +1,707 @@
+{
+ "type": "carousel",
+ "contents": [
+  {
+   "type": "bubble",
+   "size": "mega",
+   "hero": {
+    "type": "image",
+    "url": "{{BASE}}/photo.jpg",
+    "size": "full",
+    "aspectRatio": "3:4",
+    "aspectMode": "cover"
+   },
+   "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "xs",
+    "paddingAll": "20px",
+    "contents": [
+     {
+      "type": "text",
+      "text": "台北公益路跑扶輪社",
+      "size": "sm",
+      "color": "#C9A227",
+      "weight": "bold",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "2025-26 社長",
+      "size": "xs",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "楊鍾鼎  Frank",
+      "size": "xxl",
+      "color": "#1F2937",
+      "weight": "bold",
+      "wrap": true,
+      "margin": "md"
+     },
+     {
+      "type": "text",
+      "text": "富特茂股份有限公司｜核醫放射部",
+      "size": "sm",
+      "color": "#1F2937",
+      "weight": "regular",
+      "wrap": true,
+      "margin": "sm"
+     },
+     {
+      "type": "text",
+      "text": "核醫放射・生物安全實驗室・負壓隔離病房",
+      "size": "xs",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "向左滑動，認識營業項目與聯絡方式 →",
+      "size": "xxs",
+      "color": "#8B1E2B",
+      "weight": "regular",
+      "wrap": true,
+      "margin": "lg"
+     }
+    ]
+   },
+   "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+     {
+      "type": "button",
+      "style": "primary",
+      "color": "#8B1E2B",
+      "height": "sm",
+      "action": {
+       "type": "uri",
+       "label": "加 Frank LINE 好友",
+       "uri": "https://line.me/ti/p/~frank17499"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "type": "bubble",
+   "size": "mega",
+   "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "paddingAll": "20px",
+    "contents": [
+     {
+      "type": "text",
+      "text": "02 / CORE EXPERTISE",
+      "size": "xxs",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "核醫放射與\n生物安全工程",
+      "size": "xl",
+      "color": "#1F2937",
+      "weight": "bold",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "從規劃、設計、施工到檢測，一站完成。",
+      "size": "xs",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "separator",
+      "margin": "md",
+      "color": "#E5E7EB"
+     },
+     {
+      "type": "text",
+      "text": "◆ 核醫放射部",
+      "size": "md",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true,
+      "margin": "lg"
+     },
+     {
+      "type": "text",
+      "text": "放射核醫設備、輻射偵檢設備、放射性排煙櫃及過濾系統、輻防作業服務、射源及放射性檢驗試劑、鉛屏蔽工程及加工",
+      "size": "sm",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "◆ 工程部",
+      "size": "md",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true,
+      "margin": "lg"
+     },
+     {
+      "type": "text",
+      "text": "SPF 動物房、無菌無塵室、生技工程規劃設計施工、生物安全操作實驗室（BSL-2～BSL-3）、負壓隔離病房",
+      "size": "sm",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     }
+    ]
+   },
+   "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+     {
+      "type": "button",
+      "style": "primary",
+      "color": "#8B1E2B",
+      "height": "sm",
+      "action": {
+       "type": "uri",
+       "label": "洽談工程與設備合作",
+       "uri": "tel:0928096097"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "type": "bubble",
+   "size": "mega",
+   "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "paddingAll": "20px",
+    "contents": [
+     {
+      "type": "text",
+      "text": "03 / PRODUCTS",
+      "size": "xxs",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "醫療、耗材\n與分生科技",
+      "size": "xl",
+      "color": "#1F2937",
+      "weight": "bold",
+      "wrap": true
+     },
+     {
+      "type": "separator",
+      "margin": "md",
+      "color": "#E5E7EB"
+     },
+     {
+      "type": "text",
+      "text": "◆ 醫療部",
+      "size": "md",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true,
+      "margin": "lg"
+     },
+     {
+      "type": "text",
+      "text": "醫療儀器設備、運動醫學設備、生理及心理設備、人因工程設備、環境衛生用藥及相關設備",
+      "size": "sm",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "◆ 耗材部",
+      "size": "md",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true,
+      "margin": "lg"
+     },
+     {
+      "type": "text",
+      "text": "醫療耗材、一般實驗耗材",
+      "size": "sm",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "◆ 分生科技部",
+      "size": "md",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true,
+      "margin": "lg"
+     },
+     {
+      "type": "text",
+      "text": "PCR 及相關設備、理化儀器、試劑及試藥",
+      "size": "sm",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     }
+    ]
+   },
+   "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+     {
+      "type": "button",
+      "style": "primary",
+      "color": "#8B1E2B",
+      "height": "sm",
+      "action": {
+       "type": "uri",
+       "label": "詢問產品",
+       "uri": "tel:0928096097"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "type": "bubble",
+   "size": "mega",
+   "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "paddingAll": "20px",
+    "contents": [
+     {
+      "type": "text",
+      "text": "04 / PROJECTS",
+      "size": "xxs",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "代表實績",
+      "size": "xl",
+      "color": "#1F2937",
+      "weight": "bold",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "規劃・設計・施工・認證",
+      "size": "xs",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "separator",
+      "margin": "md",
+      "color": "#E5E7EB"
+     },
+     {
+      "type": "text",
+      "text": "◆ BSL 2+～3 生物安全實驗室",
+      "size": "md",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true,
+      "margin": "lg"
+     },
+     {
+      "type": "text",
+      "text": "疾病管制署、中央研究院、台北榮總、成大醫院、奇美醫院",
+      "size": "sm",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "◆ PIC/S GMP 製藥工廠",
+      "size": "md",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true,
+      "margin": "lg"
+     },
+     {
+      "type": "text",
+      "text": "核能研究所、國家衛生研究院、台北榮總迴旋加速器中心、農業科技研究院",
+      "size": "sm",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "◆ SPF 動物房",
+      "size": "md",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true,
+      "margin": "lg"
+     },
+     {
+      "type": "text",
+      "text": "核能研究所、食品藥物管理署、疾病管制署、中研院生化所",
+      "size": "sm",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "◆ GTP/CPU 細胞製備場所",
+      "size": "md",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true,
+      "margin": "lg"
+     },
+     {
+      "type": "text",
+      "text": "臺北醫學大學、三顧生醫、宣捷生技、台灣尖端先進生技醫藥",
+      "size": "sm",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "◆ 生技／化學／核醫實驗室",
+      "size": "md",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true,
+      "margin": "lg"
+     },
+     {
+      "type": "text",
+      "text": "馬偕醫院輻防中心、國家衛生研究院、臺北醫學大學、永豐餘生技",
+      "size": "sm",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "※ 實績繁多不及備載，完整名單請見官網。",
+      "size": "xxs",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true,
+      "margin": "lg"
+     }
+    ]
+   },
+   "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+     {
+      "type": "button",
+      "style": "primary",
+      "color": "#8B1E2B",
+      "height": "sm",
+      "action": {
+       "type": "uri",
+       "label": "查看完整實績",
+       "uri": "https://www.threepower.com.tw/album_tw.php?id=59"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "type": "bubble",
+   "size": "mega",
+   "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "paddingAll": "20px",
+    "contents": [
+     {
+      "type": "text",
+      "text": "05 / LET'S CONNECT",
+      "size": "xxs",
+      "color": "#8B1E2B",
+      "weight": "bold",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "從認識開始，\n讓合作發生。",
+      "size": "xl",
+      "color": "#1F2937",
+      "weight": "bold",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "台北公益路跑扶輪社｜2025-26 社長",
+      "size": "sm",
+      "color": "#C9A227",
+      "weight": "bold",
+      "wrap": true,
+      "margin": "md"
+     },
+     {
+      "type": "text",
+      "text": "楊鍾鼎 Frank Yang",
+      "size": "md",
+      "color": "#1F2937",
+      "weight": "bold",
+      "wrap": true
+     },
+     {
+      "type": "text",
+      "text": "富特茂股份有限公司 核醫放射部",
+      "size": "xs",
+      "color": "#6B7280",
+      "weight": "regular",
+      "wrap": true
+     },
+     {
+      "type": "separator",
+      "margin": "md",
+      "color": "#E5E7EB"
+     },
+     {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "margin": "md",
+      "contents": [
+       {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "sm",
+        "contents": [
+         {
+          "type": "text",
+          "text": "手機",
+          "size": "xs",
+          "color": "#6B7280",
+          "weight": "regular",
+          "wrap": true,
+          "flex": 2
+         },
+         {
+          "type": "text",
+          "text": "0928-096-097",
+          "size": "sm",
+          "color": "#1F2937",
+          "weight": "regular",
+          "wrap": true,
+          "flex": 5
+         }
+        ]
+       },
+       {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "sm",
+        "contents": [
+         {
+          "type": "text",
+          "text": "公司",
+          "size": "xs",
+          "color": "#6B7280",
+          "weight": "regular",
+          "wrap": true,
+          "flex": 2
+         },
+         {
+          "type": "text",
+          "text": "02-2219-1000",
+          "size": "sm",
+          "color": "#1F2937",
+          "weight": "regular",
+          "wrap": true,
+          "flex": 5
+         }
+        ]
+       },
+       {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "sm",
+        "contents": [
+         {
+          "type": "text",
+          "text": "傳真",
+          "size": "xs",
+          "color": "#6B7280",
+          "weight": "regular",
+          "wrap": true,
+          "flex": 2
+         },
+         {
+          "type": "text",
+          "text": "02-2219-4567",
+          "size": "sm",
+          "color": "#1F2937",
+          "weight": "regular",
+          "wrap": true,
+          "flex": 5
+         }
+        ]
+       },
+       {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "sm",
+        "contents": [
+         {
+          "type": "text",
+          "text": "Email",
+          "size": "xs",
+          "color": "#6B7280",
+          "weight": "regular",
+          "wrap": true,
+          "flex": 2
+         },
+         {
+          "type": "text",
+          "text": "frank.yang@twbeamon.com",
+          "size": "sm",
+          "color": "#1F2937",
+          "weight": "regular",
+          "wrap": true,
+          "flex": 5
+         }
+        ]
+       },
+       {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "sm",
+        "contents": [
+         {
+          "type": "text",
+          "text": "LINE ID",
+          "size": "xs",
+          "color": "#6B7280",
+          "weight": "regular",
+          "wrap": true,
+          "flex": 2
+         },
+         {
+          "type": "text",
+          "text": "frank17499",
+          "size": "sm",
+          "color": "#1F2937",
+          "weight": "regular",
+          "wrap": true,
+          "flex": 5
+         }
+        ]
+       },
+       {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "sm",
+        "contents": [
+         {
+          "type": "text",
+          "text": "地址",
+          "size": "xs",
+          "color": "#6B7280",
+          "weight": "regular",
+          "wrap": true,
+          "flex": 2
+         },
+         {
+          "type": "text",
+          "text": "新北市新店區中正路四維巷8弄13號2樓",
+          "size": "sm",
+          "color": "#1F2937",
+          "weight": "regular",
+          "wrap": true,
+          "flex": 5
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+     {
+      "type": "button",
+      "style": "primary",
+      "color": "#8B1E2B",
+      "height": "sm",
+      "action": {
+       "type": "uri",
+       "label": "加我 LINE 好友",
+       "uri": "https://line.me/ti/p/~frank17499"
+      }
+     },
+     {
+      "type": "button",
+      "style": "primary",
+      "color": "#8B1E2B",
+      "height": "sm",
+      "action": {
+       "type": "uri",
+       "label": "直接撥打電話",
+       "uri": "tel:0928096097"
+      }
+     },
+     {
+      "type": "button",
+      "style": "secondary",
+      "color": "#F3F4F6",
+      "height": "sm",
+      "action": {
+       "type": "uri",
+       "label": "寄 Email",
+       "uri": "mailto:frank.yang@twbeamon.com"
+      }
+     },
+     {
+      "type": "button",
+      "style": "secondary",
+      "color": "#F3F4F6",
+      "height": "sm",
+      "action": {
+       "type": "uri",
+       "label": "公司官網",
+       "uri": "https://www.threepower.com.tw"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}
